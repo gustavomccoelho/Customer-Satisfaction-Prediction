@@ -24,6 +24,22 @@ The train and test datasets are composed by 370 columns, in addition to the targ
 
 The outcome of this strategy turned the initial 370 columns into 14, which is more likely to be properly handled by the predictive model.
 
+In addition, the data is normilized. 
+
 Exploratory-Analysis-2.ipynb:
 
+There new variables were created to enhance the predictions:
+
+-var15_levels - reflecting the correlation to the target variable on var15
+-zeros - number of zeros for each row (ID)
+-zeros_level - reflecting the correlation of the "zeros" to the target variable
+
+![var15](/Pictures/var15.png)
+![var15_level](/Pictures/var15_level.png)
+![zeros](/Pictures/zeros.png)
+![zeros_level](/Pictures/zeros_level.png)
+
+Predictive-Model.ipynb:
+
+Gradient Boosting Classifier is used for the predictive model.
 
