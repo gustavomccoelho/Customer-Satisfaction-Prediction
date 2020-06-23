@@ -26,7 +26,4 @@ The outcome of this strategy turned the initial 370 columns into 14, which is mo
 
 Exploratory-Analysis-2.ipynb:
 
-![var15](/Pictures/var15.png)
-![var15_level](/Pictures/var15_level.png)
-![zeros](/Pictures/zeros.png)
-![zeros_level](/Pictures/zeros_level.png)
+
